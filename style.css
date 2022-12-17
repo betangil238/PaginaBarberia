@@ -1,0 +1,165 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+nav {
+    position: absolute;
+    top:130px;
+    right: 800px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+} 
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+ } 
+ .caja{
+    position:relative;
+    /* width: 1000px; */
+    margin: 0 auto;
+    background-color:grey;
+    padding: 20px 0;
+}
+
+
+
+.banner{
+    width:100%;
+}
+
+.tituloppal{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+.principal p, .mapa p{
+    margin: 0 0 1em;
+    font-size: 15px;
+}
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em;
+}
+.mapa{
+  padding: 1em 0 0 0;
+  background:linear-gradient(white,grey)
+}
+.disenomapa{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0 1em  0;
+}
+
+em strong{
+    color:red;
+    font-style: italic;
+}
+
+#mision{
+    font-size: 20px;
+    text-align: center;
+}
+
+.principal{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+    /* width: 940px; */
+    margin: 0 auto;
+    background:linear-gradient(grey,grey);
+}
+
+.items{
+    font-style: italic;
+    line-height: 1.5;
+}
+.items:first-child{
+    font-weight: bold;
+}
+
+.utensilios{
+    width: 10%;
+    float: left;
+    margin: 0 20px 20px 0;
+   
+}
+.imagenDiferenciales{
+    width: 45%;
+    opacity: 50%;
+    transition: 1s;
+    box-shadow: 10px 10px 10px 20px black;
+}
+.imagenDiferenciales:hover{
+    width: 50%;
+    opacity: 100%;
+    box-shadow: 7px 7px 10px 7px black;
+}
+
+#fotin{
+    position:relative;
+    left: 815px;
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    position:absolute;
+    top:120px;
+    right: 500px;
+}
+.video{
+    width: 650px;
+    margin:0 auto ;
+    padding: 2em 0;
+    
+}
+.videografia{
+    background:linear-gradient(grey,black);
+}
+footer{
+    background:url(imagenes/bg.jpg);
+    /* height: 400px; */
+    /* margin-top: 40px; */
+    text-align: center;
+    padding: 20px;
+}
+.leyenda{
+font-size: 10px;
+color: #FFFFFF;
+margin: 20px;
+}
+.barbitapic{
+    position:relative;
+}
+
+
+.contenidodiferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.listadiferenciales{
+    width: 40%;
+    display: inline-block ;
+    vertical-align: top;
+}
+
+.items:before{
+    content: "✵";
+}

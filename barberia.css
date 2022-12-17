@@ -1,0 +1,309 @@
+/* *********************** PRIMER EJERCICIO ******************
+
+body{
+    background: #000000;
+    color:aliceblue;
+    font-style: italic;
+}
+.titulo{
+    text-align:center;
+    
+}
+#pic{
+    width:100%;
+}
+h2,h3{
+    text-align:center;
+}
+.aboutus{
+    background: rgba(141, 80, 255, 0.108) ;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid rgb(136, 143, 186);
+    font-size: 15px;
+}
+em strong{
+    color: brown;
+    font-size: 20px;
+}
+ul{
+vertical-align: top;
+    display:inline-block;
+    margin-right: 21%;
+    width: 45%;
+} */
+/* <!-- ***************** SEGUNDO EJERCICIO **********************
+header{
+    background-color:grey;
+    padding: 20px 0;
+}
+.caja{
+    position:relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    position:absolute;
+    top:134px;
+    right: 10px;
+
+}
+#fotin{
+    position:relative;
+    left: 50px;
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    position:absolute;
+    top:120px;
+    right: 500px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+} 
+nav a:hover{
+   color: #c78c19;
+   text-decoration: underline;
+} 
+main{
+    text-align: center;
+    margin-top: 40px;
+    vertical-align: top;
+    /* width: 1000px; */
+/* }
+.productos{
+    display: inline-block;
+    padding: 0px;
+    margin:0 15px 0 15px;
+    width: 30%;
+    width: 24%;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+.productos:hover{
+    border-color: #c78c19;
+}
+.productos:hover h2{
+    font-size: 33px;;
+}
+.productos:active{
+    border-color: #16a91b;
+}
+
+.titulosproducto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: 10px;
+    padding: 20px;
+}
+.descripcionprod{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.precios{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+footer{
+    background:url(imagenes/bg.jpg);
+    /* height: 400px; */
+    /* margin-top: 40px;
+    text-align: center;
+    padding: 20px; */
+/* }
+.leyenda{
+font-size: 10px;
+color: #FFFFFF;
+margin: 20px;
+}
+.barbitapic{
+    position:relative;
+} */ 
+
+***************** TERCER EJERCICIO **********************
+header{
+    background-color:grey;
+    padding: 20px 0;
+}
+.caja{
+    position:relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    position:absolute;
+    top:134px;
+    right: 10px;
+
+}
+#fotin{
+    position:relative;
+    left: 50px;
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    position:absolute;
+    top:120px;
+    right: 500px;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+} 
+nav a:hover{
+   color: #c78c19;
+   text-decoration: underline;
+} 
+
+.productos{
+    display: inline-block;
+    padding: 0px;
+    margin:0 15px 0 15px;
+    width: 30%;
+    width: 24%;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+.productos:hover{
+    border-color: #c78c19;
+}
+.productos:hover h2{
+    font-size: 33px;;
+}
+.productos:active{
+    border-color: #16a91b;
+}
+
+.titulosproducto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: 10px;
+    padding: 20px;
+}
+.descripcionprod{
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.precios{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+footer{
+    background:url(imagenes/bg.jpg);
+    /* height: 400px; */
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.leyenda{
+font-size: 10px;
+color: #FFFFFF;
+margin: 20px;
+}
+.barbitapic{
+    position:relative;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+
+form label,legend{
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+.padron{
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.puntitos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+#submit{
+    margin-left: 60px;
+    padding: 20px;
+    width: 40%;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #000000;
+    transition: 1s;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(12, 62, 8);
+    font-size: 22px;
+    border-color: #ffffff;
+    color: #FFFFFF;
+    transform: scale(1.2);
+}
+table{
+    margin: 20px;
+    margin-left: 120px;
+}
+thead{
+    background-color: bisque;
+}
+td, th{
+    border: 2px solid #000000 ;
+    padding: 5px 10px;
+}

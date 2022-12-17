@@ -1,0 +1,191 @@
+<!-- ********************* PRIMER EJERCICIO ******************
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="barberia.css">
+    <title>Barberia el pelito suelto</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">BARBERIA EL PELITO SUELTO</h1>
+    </header>
+    <img id="pic" src="imagenes/elchuzo.jpg">
+    <div class="aboutus">
+    <h2> ACERCA DE NOSOTROS</h2>
+        <p>En nuestra barberia,<strong>el pelito suelto</strong> , podras observar los grandes beneficios de tener un pelo lasio, cedoso y mucho mas hermoso, la gente no lo cree hasta que logra ver relucir esa linda melena, independientemente si las puntas las sellas con grasa de empanada o pastel de pollo.</p>
+
+        <p><em> nuestra mision es:<strong>"Hacer de tu pelo las mejores almohadas para perritos en barrios adinerados"</strong> </em></p>
+
+        <p> Ofrecemos motilado arriba y abajo, recuerda que puedes apartar citas en el primer o segundo piso, cortamos las punticas, hacemos tintura tipo ardilla, dejamos la barba estilo vikingo y para los mas intrepidos realizamos el corte al estilo ronaldo. Jugadores profesionales como ronaldhino, aristigol y el mismo pele nos recomiendan.Estamos con las ultimas tendencias del mercado, TE ESPERAMOS!</p>
+    
+</div>
+<div>
+    <h3>DIFERENCIALES</h3>
+    <ul>
+        <li class="punto">Sellado de puntas con manteca de empanadas</li>
+        <li class="punto">Le recuperamos la cabellera incluso despues del champu de cualquier guiza</li>
+        <li class="punto">El huevo es nuestra especialidad, a parte de que le metemos huevos a todo lo que hacemos, <br>le quitamos el olor por cumpleanos</br></li>
+        <li class="punto">Restaurante gourmet con los restos de comida de tu barba</li>
+    </ul>
+<img src="imagenes/pibe.png">
+</div>
+</body>
+</html> -->
+
+<!-- ***************** SEGUNDO EJERCICIO **********************
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="barberia.css">
+    <title>BARBERIA EL BETA</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img id="fotin" src="imagenes/logo.png">
+            <h1>LA BARBERIA <br>DEL BETA</br></h1>
+            <nav>
+                <ul>
+                    <li><a href="home.css">HOME</a></li>
+                    <li><a href="productos.css">PRODUCTOS</a></li>
+                    <li><a href="http://www.google.com">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main >
+        <ul>
+
+        <li class="productos">
+            <h2 class="titulosproducto">Cabello</h2>
+            <img src="imagenes/cabello.jpg">
+            <p class="descripcionprod">Con tijera o maquina, a gusto del cliente</p>
+            <p class="precios">$ 10.00</p>
+        </li>
+        <li class="productos">
+            <h2 class="titulosproducto">Barba</h2>
+            <img src="imagenes/barba.jpg">
+            <p class="descripcionprod">Corte y diseno profesional de barba</p>
+            <p class="precios">$ 08.00</p>
+        </li>
+        <li class="productos">
+            <h2 class="titulosproducto">Cabello + Barba</h2>
+            <img src="imagenes/cabello+barba.jpg">
+            <p class="descripcionprod">Paquete completo de cabello y barba</p>
+            <p class="precios">$ 15.00</p>
+        </li>
+    </ul>
+    </main>
+    <footer>
+        <img class="barbitapic "src="imagenes/logo-blanco.png">
+        <p class="leyenda">© Copyright barberia EL beta - 2022</p>
+    </footer>
+</body>
+</html> -->
+
+<!-- ***************** SEGUNDO EJERCICIO ********************** -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="barberia.css">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img id="fotin" src="imagenes/logo.png">
+            <h1>LA BARBERIA <br>DEL BETA</br></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="barberia.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main >
+      <form>
+        <label for="nombreapellido">NOMBRE Y APELLIDO</label>
+        <input type="text" id="nombreapellido" class="padron" required>
+
+        <label for="email">CORREO ELECTRONICO</label>
+        <input type="email" id="email" class="padron" required placeholder="ejemplo@barberiabeta.com">
+
+        <label for="cel">TELEFONO DE CONTACTO</label>
+        <input type="tel" id="cel" class="padron" required placeholder="(xxx) xxx xx xx">
+
+        <label for="mensaje">AGREGUE INFORMACION ADICIONAL</label>
+        <textarea cols="74" rows="10" id="mensaje" class="padron" required></textarea>
+
+        <fieldset class="puntitos">
+            <legend>Como el gustaria ser contactado</legend>
+            <label for="correo"><input type="radio" name="seleccion" id="correo">email</label>
+
+            <label for="whatsapp"><input type="radio" name="seleccion"  id="whatsaap" checked>whatsaap</label>
+        
+            <label for="celular"><input type="radio" name="seleccion"  id="celular">celular</label>
+            
+        </fieldset>
+
+    <div>
+        <p>En que horario desea ser contactado</p>
+        <select>
+            <option>manana</option>
+            <option>tarde</option>
+            <option>noche</option>
+        </select>
+
+    </div>
+
+        <label for="contactar" class="checkbox"><input type="checkbox" id="contactar" checked>DESEA SER CONTACTADO</label>
+        
+
+        <input type="submit" value="enviar" id="submit">
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>DIA</th>
+                    <th>HORA</th>
+                 </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td>Lunes</td>>
+                   <td>8:00 am- 8:pm</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>>
+                    <td>8:00 am- 8:pm</td>
+                 </tr>
+                 <tr>
+                    <td>Viernes</td>>
+                    <td>8:00 am- 8:pm</td>
+                 </tr>
+            </tbody>
+        </table>
+      </form>
+
+    </main>
+
+    <footer>
+        <img class="barbitapic "src="imagenes/logo-blanco.png">
+        <p class="leyenda">© Copyright barberia EL beta - 2022</p>
+    </footer>
+</body>
+</html>
